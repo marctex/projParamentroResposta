@@ -60,6 +60,7 @@ namespace projParamentroResposta
             this.forma2ToolStripMenuItem.Name = "forma2ToolStripMenuItem";
             this.forma2ToolStripMenuItem.Size = new System.Drawing.Size(62, 20);
             this.forma2ToolStripMenuItem.Text = "Forma 2";
+            this.forma2ToolStripMenuItem.Click += new System.EventHandler(this.forma2ToolStripMenuItem_Click);
             // 
             // forma3ToolStripMenuItem
             // 

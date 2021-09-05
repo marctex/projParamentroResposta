@@ -22,18 +22,13 @@ namespace projParamentroResposta.forma1
         public FrmForma1Formulario2(TextBox txt): this()
         {
             txtResposta = txt;
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
+        }        
 
         private void btnDevolver_Click(object sender, EventArgs e)
         {
             txtResposta.Text = txtRespostaDevolver.Text;
 
             Close();
-        }
+        }    
     }
 }
