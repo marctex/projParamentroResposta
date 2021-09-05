@@ -1,7 +1,7 @@
 ﻿
-namespace projParamentroResposta.forma1
+namespace projParamentroResposta.forma3
 {
-    partial class FrmForma1Formulario1
+    partial class FrmForma3Formulario1
     {
         /// <summary>
         /// Required designer variable.
@@ -29,66 +29,64 @@ namespace projParamentroResposta.forma1
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
-            this.txtParametroEnviar = new System.Windows.Forms.TextBox();
+            this.btnEnviar = new System.Windows.Forms.Button();
             this.txtRespostaRecebida = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.btnEnviar = new System.Windows.Forms.Button();
+            this.txtParametroEnviar = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // label1
+            // btnEnviar
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(33, 25);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(193, 20);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Parâmetro para Enviar:";            
-            // 
-            // txtParametroEnviar
-            // 
-            this.txtParametroEnviar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtParametroEnviar.Location = new System.Drawing.Point(36, 50);
-            this.txtParametroEnviar.Name = "txtParametroEnviar";
-            this.txtParametroEnviar.Size = new System.Drawing.Size(348, 26);
-            this.txtParametroEnviar.TabIndex = 1;
+            this.btnEnviar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEnviar.Location = new System.Drawing.Point(195, 118);
+            this.btnEnviar.Name = "btnEnviar";
+            this.btnEnviar.Size = new System.Drawing.Size(190, 35);
+            this.btnEnviar.TabIndex = 14;
+            this.btnEnviar.Text = "Enviar para Form 2";
+            this.btnEnviar.UseVisualStyleBackColor = true;
             // 
             // txtRespostaRecebida
             // 
             this.txtRespostaRecebida.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtRespostaRecebida.Location = new System.Drawing.Point(36, 172);
+            this.txtRespostaRecebida.Location = new System.Drawing.Point(37, 194);
             this.txtRespostaRecebida.Name = "txtRespostaRecebida";
             this.txtRespostaRecebida.Size = new System.Drawing.Size(348, 26);
-            this.txtRespostaRecebida.TabIndex = 3;
+            this.txtRespostaRecebida.TabIndex = 13;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(33, 147);
+            this.label2.Location = new System.Drawing.Point(34, 169);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(172, 20);
-            this.label2.TabIndex = 2;
+            this.label2.TabIndex = 12;
             this.label2.Text = "Resposta Recebida:";
-            
             // 
-            // btnEnviar
+            // txtParametroEnviar
             // 
-            this.btnEnviar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnEnviar.Location = new System.Drawing.Point(194, 96);
-            this.btnEnviar.Name = "btnEnviar";
-            this.btnEnviar.Size = new System.Drawing.Size(190, 35);
-            this.btnEnviar.TabIndex = 4;
-            this.btnEnviar.Text = "Enviar para Form 2";
-            this.btnEnviar.UseVisualStyleBackColor = true;
-            this.btnEnviar.Click += new System.EventHandler(this.btnEnviar_Click);
+            this.txtParametroEnviar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtParametroEnviar.Location = new System.Drawing.Point(37, 72);
+            this.txtParametroEnviar.Name = "txtParametroEnviar";
+            this.txtParametroEnviar.Size = new System.Drawing.Size(348, 26);
+            this.txtParametroEnviar.TabIndex = 11;
             // 
-            // FrmForma1Formulario1
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(34, 47);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(193, 20);
+            this.label1.TabIndex = 10;
+            this.label1.Text = "Parâmetro para Enviar:";
+            // 
+            // FrmForma3Formulario1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(414, 262);
+            this.ClientSize = new System.Drawing.Size(418, 266);
             this.Controls.Add(this.btnEnviar);
             this.Controls.Add(this.txtRespostaRecebida);
             this.Controls.Add(this.label2);
@@ -97,9 +95,10 @@ namespace projParamentroResposta.forma1
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
-            this.Name = "FrmForma1Formulario1";
+            this.Name = "FrmForma3Formulario1";
             this.ShowIcon = false;
-            this.Text = "FrmForma1Formulario1";
+            this.ShowInTaskbar = false;
+            this.Text = "FrmForma3Formulario1";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -107,10 +106,10 @@ namespace projParamentroResposta.forma1
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox txtParametroEnviar;
+        private System.Windows.Forms.Button btnEnviar;
         private System.Windows.Forms.TextBox txtRespostaRecebida;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Button btnEnviar;
+        private System.Windows.Forms.TextBox txtParametroEnviar;
+        private System.Windows.Forms.Label label1;
     }
 }

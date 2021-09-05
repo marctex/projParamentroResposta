@@ -8,21 +8,21 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace projParamentroResposta.forma1
+namespace projParamentroResposta.forma2
 {
-    public partial class FrmForma1Formulario1 : Form
+    public partial class FrmForma2Formulario1 : Form
     {
-        public FrmForma1Formulario1()
+        public FrmForma2Formulario1()
         {
             InitializeComponent();
-        }     
+        }
 
-       
         private void btnEnviar_Click(object sender, EventArgs e)
         {
-            FrmForma1Formulario2 frm = new FrmForma1Formulario2(txtRespostaRecebida);
-            frm.txtParametroRecebido.Text = txtParametroEnviar.Text;
-            frm.Show();
+            FrmForma2Formulario2 frm = new FrmForma2Formulario2();
+            frm.strParametro = txtParametroEnviar.Text;
+            frm.ShowDialog();
+            txtRespostaRecebida.Text = frm.strResposta;
         }
     }
 }

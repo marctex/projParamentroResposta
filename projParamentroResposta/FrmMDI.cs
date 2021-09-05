@@ -1,4 +1,6 @@
-﻿using System;
+﻿using projParamentroResposta.forma1;
+using projParamentroResposta.forma2;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,6 +17,20 @@ namespace projParamentroResposta
         public FrmMDI()
         {
             InitializeComponent();
+        }
+
+        private void forma1ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmForma1Formulario1 frm = new FrmForma1Formulario1();
+            frm.MdiParent = this;
+            frm.Show();
+        }
+
+        private void forma2ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmForma2Formulario1 frm = new FrmForma2Formulario1();
+            frm.MdiParent = this;
+            frm.Show();
         }
     }
 }

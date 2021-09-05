@@ -1,7 +1,7 @@
 ﻿
-namespace projParamentroResposta.forma1
+namespace projParamentroResposta.forma2
 {
-    partial class FrmForma1Formulario2
+    partial class FrmForma2Formulario2
     {
         /// <summary>
         /// Required designer variable.
@@ -39,10 +39,10 @@ namespace projParamentroResposta.forma1
             // btnDevolver
             // 
             this.btnDevolver.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnDevolver.Location = new System.Drawing.Point(195, 206);
+            this.btnDevolver.Location = new System.Drawing.Point(193, 193);
             this.btnDevolver.Name = "btnDevolver";
             this.btnDevolver.Size = new System.Drawing.Size(190, 35);
-            this.btnDevolver.TabIndex = 9;
+            this.btnDevolver.TabIndex = 14;
             this.btnDevolver.Text = "Devolver para Form 2";
             this.btnDevolver.UseVisualStyleBackColor = true;
             this.btnDevolver.Click += new System.EventHandler(this.btnDevolver_Click);
@@ -50,53 +50,58 @@ namespace projParamentroResposta.forma1
             // txtRespostaDevolver
             // 
             this.txtRespostaDevolver.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtRespostaDevolver.Location = new System.Drawing.Point(37, 154);
+            this.txtRespostaDevolver.Location = new System.Drawing.Point(35, 141);
             this.txtRespostaDevolver.Name = "txtRespostaDevolver";
             this.txtRespostaDevolver.Size = new System.Drawing.Size(348, 26);
-            this.txtRespostaDevolver.TabIndex = 8;
+            this.txtRespostaDevolver.TabIndex = 13;
+            
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(34, 129);
+            this.label2.Location = new System.Drawing.Point(32, 116);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(206, 20);
-            this.label2.TabIndex = 7;
+            this.label2.TabIndex = 12;
             this.label2.Text = "Resposta para Devolver:";
             // 
             // txtParametroRecebido
             // 
             this.txtParametroRecebido.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtParametroRecebido.Location = new System.Drawing.Point(37, 72);
+            this.txtParametroRecebido.Location = new System.Drawing.Point(35, 59);
             this.txtParametroRecebido.Name = "txtParametroRecebido";
             this.txtParametroRecebido.Size = new System.Drawing.Size(348, 26);
-            this.txtParametroRecebido.TabIndex = 6;
+            this.txtParametroRecebido.TabIndex = 11;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(34, 47);
+            this.label1.Location = new System.Drawing.Point(32, 34);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(178, 20);
-            this.label1.TabIndex = 5;
-            this.label1.Text = "Parâmetro Recebido:";            
+            this.label1.TabIndex = 10;
+            this.label1.Text = "Parâmetro Recebido:";
             // 
-            // FrmForma1Formulario2
+            // FrmForma2Formulario2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(418, 266);
+            this.ClientSize = new System.Drawing.Size(414, 262);
             this.Controls.Add(this.btnDevolver);
             this.Controls.Add(this.txtRespostaDevolver);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.txtParametroRecebido);
             this.Controls.Add(this.label1);
-            this.Name = "FrmForma1Formulario2";
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
+            this.Name = "FrmForma2Formulario2";
             this.ShowIcon = false;
             this.ShowInTaskbar = false;
-            this.Text = "FrmForma1Formulario2";
+            this.Text = "FrmForma2Formulario2";
+            this.Load += new System.EventHandler(this.FrmForma2Formulario2_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -108,6 +113,6 @@ namespace projParamentroResposta.forma1
         private System.Windows.Forms.TextBox txtRespostaDevolver;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
-        public System.Windows.Forms.TextBox txtParametroRecebido;
+        private System.Windows.Forms.TextBox txtParametroRecebido;
     }
 }
