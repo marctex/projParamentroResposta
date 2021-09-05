@@ -68,6 +68,9 @@
     <EmbeddedResource Include="forma1\FrmForma1Formulario1.resx">
       <DependentUpon>FrmForma1Formulario1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="forma1\FrmForma1Formulario2.resx">
+      <DependentUpon>FrmForma1Formulario2.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmMDI.resx">
       <DependentUpon>FrmMDI.cs</DependentUpon>
     </EmbeddedResource>
