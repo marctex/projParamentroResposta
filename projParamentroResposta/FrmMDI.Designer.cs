@@ -67,6 +67,7 @@ namespace projParamentroResposta
             this.forma3ToolStripMenuItem.Name = "forma3ToolStripMenuItem";
             this.forma3ToolStripMenuItem.Size = new System.Drawing.Size(59, 20);
             this.forma3ToolStripMenuItem.Text = "Forma3";
+            this.forma3ToolStripMenuItem.Click += new System.EventHandler(this.forma3ToolStripMenuItem_Click);
             // 
             // FrmMDI
             // 

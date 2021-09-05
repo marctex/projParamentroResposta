@@ -45,6 +45,7 @@ namespace projParamentroResposta.forma3
             this.btnDevolver.TabIndex = 19;
             this.btnDevolver.Text = "Devolver para Form 2";
             this.btnDevolver.UseVisualStyleBackColor = true;
+            this.btnDevolver.Click += new System.EventHandler(this.btnDevolver_Click);
             // 
             // txtRespostaDevolver
             // 
