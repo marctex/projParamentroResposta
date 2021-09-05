@@ -45,6 +45,7 @@ namespace projParamentroResposta.forma3
             this.btnEnviar.TabIndex = 14;
             this.btnEnviar.Text = "Enviar para Form 2";
             this.btnEnviar.UseVisualStyleBackColor = true;
+            this.btnEnviar.Click += new System.EventHandler(this.btnEnviar_Click);
             // 
             // txtRespostaRecebida
             // 
@@ -62,7 +63,7 @@ namespace projParamentroResposta.forma3
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(172, 20);
             this.label2.TabIndex = 12;
-            this.label2.Text = "Resposta Recebida:";
+            this.label2.Text = "Resposta Recebida:";            
             // 
             // txtParametroEnviar
             // 
