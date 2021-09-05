@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace projParamentroResposta
+namespace projParamentroResposta.forma1
 {
-    public partial class FrmMDI : Form
+    public partial class FrmForma1Formulario2 : Form
     {
-        public FrmMDI()
+        public FrmForma1Formulario2()
         {
             InitializeComponent();
         }
